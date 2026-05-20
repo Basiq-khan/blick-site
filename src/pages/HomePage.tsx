@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import PromoHero from "../components/PromoHero";
-import FeaturedCategories from "../components/FeaturedCategories";
+// import FeaturedCategories from "../components/FeaturedCategories";
 import ProductCard from "../components/ProductCard";
 import { FEATURED_DEALS, FEATURED_ART_SUPPLIES, CLEARANCE_ART_SUPPLIES } from "../data/products";
 import { useCart } from "../context/CartContext";
@@ -10,10 +10,10 @@ export default function HomePage() {
   const navigate = useNavigate();
   const { addToCart } = useCart();
 
-  const handleSelectCategory = (category: string) => {
-    if (category === "Paints") navigate("/category/paints");
-    else navigate(`/search?category=${encodeURIComponent(category)}`);
-  };
+  // const handleSelectCategory = (category: string) => {
+  //   if (category === "Paints") navigate("/category/paints");
+  //   else navigate(`/search?category=${encodeURIComponent(category)}`);
+  // };
 
   const handleProductClick = (product: any) => {
     navigate(`/product/${product.id}`);
