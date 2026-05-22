@@ -24,7 +24,7 @@ export default function EducatorGiftCards() {
                 </p>
               </div>
 
-              <div className="pt-4">
+              {/* <div className="pt-4">
                 <a 
                   href="#educators" 
                   className="inline-flex items-center gap-2 rounded-full bg-amber-500 px-6 py-2.5 text-xs font-bold text-zinc-950 hover:bg-white hover:text-black transition-all shadow-md group-hover:-translate-y-0.5"
@@ -32,7 +32,7 @@ export default function EducatorGiftCards() {
                   <span>Explore Art Education</span>
                   <ArrowRight className="size-3.5 group-hover:translate-x-0.5 transition-transform" />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -54,7 +54,7 @@ export default function EducatorGiftCards() {
                 </p>
               </div>
 
-              <div className="pt-4">
+              {/* <div className="pt-4">
                 <a 
                   href="#giftcards" 
                   className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-2.5 text-xs font-bold text-zinc-950 hover:bg-black hover:text-white transition-all shadow-md group-hover:-translate-y-0.5"
@@ -62,7 +62,7 @@ export default function EducatorGiftCards() {
                   <span>Purchase Gift Cards</span>
                   <ArrowRight className="size-3.5 group-hover:translate-x-0.5 transition-transform" />
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
 

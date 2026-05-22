@@ -94,52 +94,76 @@ export default function Footer() {
           {/* Column 1: About Blick */}
           <div className="space-y-4">
             <h4 className="text-xs font-black uppercase tracking-wider text-white border-l-2 border-[#E31B23] pl-2 leading-none">
-              About Blick
+              Shop Categories
             </h4>
             <ul className="space-y-2 text-xs font-medium text-zinc-400">
-              <li><Link to="/pages/about-us" className="hover:text-white hover:translate-x-1 inline-block transition-all">About Us</Link></li>
-              <li><Link to="/pages/careers" className="hover:text-white hover:translate-x-1 inline-block transition-all">Careers</Link></li>
-              <li><Link to="/pages/store-locations" className="hover:text-white hover:translate-x-1 inline-block transition-all">Store Locations</Link></li>
-              <li><Link to="/pages/blick-art-room" className="hover:text-white hover:translate-x-1 inline-block transition-all">Blick Art Room</Link></li>
-              <li><Link to="/pages/affiliate-program" className="hover:text-white hover:translate-x-1 inline-block transition-all">Affiliate Program</Link></li>
-              <li><Link to="/pages/press-releases" className="hover:text-white hover:translate-x-1 inline-block transition-all">Press Releases</Link></li>
-              <li><Link to="/pages/blick-sponsorships" className="hover:text-white hover:translate-x-1 inline-block transition-all">Blick Sponsorships</Link></li>
+               <li>
+                <Link to="/product/brushes-and-painting-tools" className="hover:text-white hover:translate-x-1 inline-block transition-all">
+                  Brushes & Painting Tools
+                </Link>
+              </li>
+              <li>
+                <Link to="/product/canvas-and-surfaces" className="hover:text-white hover:translate-x-1 inline-block transition-all">
+                  Canvas & Surfaces
+                </Link>
+              </li>
+              <li>
+                <Link to="/product/ceramics-and-sculpture" className="hover:text-white hover:translate-x-1 inline-block transition-all">
+                  Ceramics & Sculpture
+                </Link>
+              </li>
             </ul>
           </div>
 
           {/* Column 2: Customer Service */}
           <div className="space-y-4">
             <h4 className="text-xs font-black uppercase tracking-wider text-white border-l-2 border-[#E31B23] pl-2 leading-none">
-              Customer Service
+              Popular Categories
             </h4>
             <ul className="space-y-2 text-xs font-medium text-zinc-400">
-              <li><Link to="/pages/contact-us" className="hover:text-white hover:translate-x-1 inline-block transition-all">Contact Us</Link></li>
-              <li><Link to="/pages/help-faqs" className="hover:text-white hover:translate-x-1 inline-block transition-all">Help & FAQs</Link></li>
-              <li><Link to="/pages/shipping-policy" className="hover:text-white hover:translate-x-1 inline-block transition-all">Shipping Policy</Link></li>
-              <li><Link to="/pages/return-policy" className="hover:text-white hover:translate-x-1 inline-block transition-all">Return Policy</Link></li>
-              <li><Link to="/pages/privacy-policy" className="hover:text-white hover:translate-x-1 inline-block transition-all">Privacy Policy</Link></li>
-              <li><Link to="/pages/terms-of-use" className="hover:text-white hover:translate-x-1 inline-block transition-all">Terms of Use</Link></li>
-              <li><Link to="/pages/accessibility-statement" className="hover:text-white hover:translate-x-1 inline-block transition-all">Accessibility Statement</Link></li>
+              <li>
+                <Link to="/product/drawing-and-illustration" className="hover:text-white hover:translate-x-1 inline-block transition-all">
+                  Drawing & Illustration
+                </Link>
+              </li>
+              <li>
+                <Link to="/product/easels-and-furniture" className="hover:text-white hover:translate-x-1 inline-block transition-all">
+                  Easels & Furniture
+                </Link>
+              </li>
+              <li>
+                <Link to="/product/farming-and-matboard" className="hover:text-white hover:translate-x-1 inline-block transition-all">
+                  Farming & Matboard
+                </Link>
+              </li>
             </ul>
           </div>
 
           {/* Column 3: Resources */}
           <div className="space-y-4">
             <h4 className="text-xs font-black uppercase tracking-wider text-white border-l-2 border-[#E31B23] pl-2 leading-none">
-              Resources
+              Featured Collections
             </h4>
             <ul className="space-y-2 text-xs font-medium text-zinc-400">
-              <li><Link to="/pages/lesson-plans" className="hover:text-white hover:translate-x-1 inline-block transition-all">Lesson Plans</Link></li>
-              <li><Link to="/pages/product-information" className="hover:text-white hover:translate-x-1 inline-block transition-all">Product Information</Link></li>
-              <li><Link to="/pages/order-catalog" className="hover:text-white hover:translate-x-1 inline-block transition-all">Order Catalog</Link></li>
-              <li><Link to="/pages/digital-catalog" className="hover:text-white hover:translate-x-1 inline-block transition-all">Digital Catalog</Link></li>
-              <li><Link to="/pages/buying-guides" className="hover:text-white hover:translate-x-1 inline-block transition-all">Buying Guides</Link></li>
-              <li><Link to="/pages/color-charts" className="hover:text-white hover:translate-x-1 inline-block transition-all">Color Charts</Link></li>
-              <li><Link to="/pages/safety-data-sheets" className="hover:text-white hover:translate-x-1 inline-block transition-all">Safety Data Sheets (SDS)</Link></li>
+             <li>
+                <Link to="/product/paints" className="hover:text-white hover:translate-x-1 inline-block transition-all">
+                  Paints
+                </Link>
+              </li>
+              <li>
+                <Link to="/product/papers-and-boards" className="hover:text-white hover:translate-x-1 inline-block transition-all">
+                  Papers & Boards
+                </Link>
+              </li>
+              <li>
+                <Link to="/product/studio-and-office-supplies" className="hover:text-white hover:translate-x-1 inline-block transition-all">
+                  Studio & Office Supplies
+                </Link>
+              </li>
             </ul>
           </div>
 
-          {/* Column 4: My Account */}
+          {/* Column 4: My Account
           <div className="space-y-4">
             <h4 className="text-xs font-black uppercase tracking-wider text-white border-l-2 border-[#E31B23] pl-2 leading-none">
               My Account
@@ -153,7 +177,7 @@ export default function Footer() {
               <li><Link to="/pages/my-gift-cards" className="hover:text-white hover:translate-x-1 inline-block transition-all">My Gift Cards</Link></li>
               <li><Link to="/pages/account-settings" className="hover:text-white hover:translate-x-1 inline-block transition-all">Account Settings</Link></li>
             </ul>
-          </div>
+          </div> */}
 
         </div>
       </div>

@@ -1,4 +1,5 @@
 import { ArrowRight, Flame, Sparkles, Percent, Tag } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function PromoHero() {
   return (
@@ -29,13 +30,13 @@ export default function PromoHero() {
             </div>
 
             <div className="relative mt-12 space-y-3">
-              <a 
-                href="#watercolor" 
+              <Link
+                to="/product/brushes-and-painting-tools"
                 className="inline-flex items-center gap-2 rounded-xl bg-[#E31B23] px-6 py-3 text-xs font-black text-white hover:bg-black transition-all shadow-md group-hover:-translate-y-0.5"
               >
                 <span>Shop Watercolors</span>
                 <ArrowRight className="size-3.5 group-hover:translate-x-1 transition-transform" />
-              </a>
+              </Link>
               <div className="text-[10px] font-extrabold text-[#E31B23] tracking-widest uppercase">SAVE UP TO 30% ON SETS</div>
             </div>
           </div>
@@ -59,13 +60,13 @@ export default function PromoHero() {
             </div>
 
             <div className="relative mt-6 flex items-center justify-between gap-4 flex-wrap border-t border-amber-200/50 pt-4">
-              <a 
-                href="#sketchpads" 
+              <Link
+                to="/product/papers-and-boards-2"
                 className="inline-flex items-center gap-2 rounded-xl bg-zinc-950 px-5 py-2.5 text-xs font-black text-white hover:bg-[#E31B23] transition-all shadow-md group-hover:-translate-y-0.5"
               >
                 <span>Shop Sketchpads</span>
                 <ArrowRight className="size-3.5 group-hover:translate-x-1 transition-transform" />
-              </a>
+              </Link>
               <span className="text-[9px] font-black text-amber-800 tracking-widest bg-amber-200/50 px-2.5 py-1 rounded">LIMITED WAREHOUSE STOCK</span>
             </div>
           </div>
@@ -90,13 +91,13 @@ export default function PromoHero() {
             </div>
 
             <div className="relative mt-12 z-10 space-y-3">
-              <a 
-                href="#framing" 
+              <Link
+                to="/product/farming-and-matboard"
                 className="inline-flex items-center gap-2 rounded-xl bg-amber-500 px-6 py-3 text-xs font-black text-zinc-950 hover:bg-white hover:text-black transition-all shadow-md group-hover:-translate-y-0.5"
               >
                 <span>Get Started</span>
                 <ArrowRight className="size-3.5 group-hover:translate-x-1 transition-transform" />
-              </a>
+              </Link>
               <div className="text-[10px] font-black text-amber-400 tracking-wider">ALWAYS HAND-MADE IN US</div>
             </div>
           </div>
@@ -117,13 +118,13 @@ export default function PromoHero() {
             </div>
 
             <div className="relative mt-4">
-              <a 
-                href="#sale" 
+              <Link
+                to="/product/easels-and-furniture-4"
                 className="inline-flex items-center gap-1 rounded-lg bg-white px-4 py-2 text-[10px] font-black text-red-950 hover:bg-yellow-400 hover:text-zinc-950 transition-all shadow-sm group-hover:-translate-y-0.5"
               >
                 <span>Browse Deals</span>
                 <ArrowRight className="size-3 group-hover:translate-x-0.5 transition-transform" />
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -147,13 +148,13 @@ export default function PromoHero() {
             </div>
 
             <div className="relative mt-4">
-              <a 
-                href="#acrylics" 
+              <Link
+                to="/product/paints-5"
                 className="inline-flex items-center gap-1 rounded-lg bg-zinc-950 px-4 py-2 text-[10px] font-black text-white hover:bg-[#E31B23] transition-all shadow-sm group-hover:-translate-y-0.5"
               >
                 <span>Add Paint</span>
                 <ArrowRight className="size-3 group-hover:translate-x-0.5 transition-transform" />
-              </a>
+              </Link>
             </div>
           </div>
 

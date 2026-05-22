@@ -86,9 +86,9 @@ export default function HomePage() {
               </div>
               <p className="text-xs text-zinc-400 font-bold uppercase tracking-wider">Last-chance savings on premium art canvases and brushes</p>
             </div>
-            <a href="#clearance" className="text-xs font-bold text-[#E31B23] hover:underline uppercase tracking-wider">
+            {/* <a href="#clearance" className="text-xs font-bold text-[#E31B23] hover:underline uppercase tracking-wider">
               Shop All Clearance &rsaquo;
-            </a>
+            </a> */}
           </div>
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 relative z-10">
