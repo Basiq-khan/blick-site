@@ -69,7 +69,7 @@ export default function Header() {
       <header className="sticky top-0 z-40 w-full border-b border-zinc-200 bg-white/95 backdrop-blur-md transition-all duration-300">
 
         {/* Top Info Bar: SLIGHTLY DIFFERENT (Elegant Dark Gradient with refined links) */}
-        <div className="bg-gradient-to-r from-[#0a0a0b] via-[#1c1c1f] to-[#0a0a0b] py-2 px-4 text-xs font-semibold text-zinc-300 transition-colors duration-250 sm:px-6 shadow-sm border-b border-zinc-900/50">
+        <div className="from-[#0a0a0b] via-[#1c1c1f] to-[#0a0a0b] py-2 px-4 text-xs font-semibold text-zinc-300 transition-colors duration-250 sm:px-6 shadow-sm border-b border-zinc-900/50">
           <div className="mx-auto flex max-w-7xl flex-col gap-1.5 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
               <Link to="/stores" className="flex items-center gap-1.5 hover:text-[#ff3b42] transition-colors">

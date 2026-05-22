@@ -1,4 +1,4 @@
-import { GraduationCap, Gift, ArrowRight } from "lucide-react";
+import { GraduationCap, Gift, } from "lucide-react";
 
 export default function EducatorGiftCards() {
   return (
@@ -7,10 +7,10 @@ export default function EducatorGiftCards() {
         <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
           
           {/* Educator Box */}
-          <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-r from-zinc-900 to-zinc-800 p-8 text-white shadow-sm border border-zinc-800 hover:shadow-xl transition-all duration-300">
+          <div className="group relative overflow-hidden rounded-2xl  from-zinc-900 to-zinc-800 p-8 text-white shadow-sm border border-zinc-800 hover:shadow-xl transition-all duration-300">
             {/* Background Image Overlay */}
             <div className="absolute right-0 bottom-0 top-0 w-1/3 bg-[url('https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=400&q=80')] bg-cover bg-center opacity-15 group-hover:scale-105 transition-transform duration-500 pointer-events-none rounded-l-3xl" />
-            <div className="absolute inset-0 bg-gradient-to-r from-zinc-900 via-zinc-900/90 to-transparent" />
+            <div className="absolute inset-0 from-zinc-900 via-zinc-900/90 to-transparent" />
             
             <div className="relative space-y-4">
               <div className="inline-flex rounded-xl bg-amber-500/10 p-3 text-amber-400 border border-amber-500/25">
@@ -37,10 +37,10 @@ export default function EducatorGiftCards() {
           </div>
 
           {/* Gift Card Box */}
-          <div className="group relative overflow-hidden rounded-2xl bg-gradient-to-r from-red-700 via-[#E31B23] to-[#ff3b42] p-8 text-white shadow-sm border border-red-600 hover:shadow-xl transition-all duration-300">
+          <div className="group relative overflow-hidden rounded-2xl from-red-700 via-[#E31B23] to-[#ff3b42] p-8 text-white shadow-sm border border-red-600 hover:shadow-xl transition-all duration-300">
             {/* Background Image Overlay */}
             <div className="absolute right-0 bottom-0 top-0 w-1/3 bg-[url('https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=400&q=80')] bg-cover bg-center opacity-15 group-hover:scale-105 transition-transform duration-500 pointer-events-none rounded-l-3xl" />
-            <div className="absolute inset-0 bg-gradient-to-r from-red-700 via-[#E31B23]/90 to-transparent" />
+            <div className="absolute inset-0 from-red-700 via-[#E31B23]/90 to-transparent" />
 
             <div className="relative space-y-4">
               <div className="inline-flex rounded-xl bg-white/10 p-3 text-white border border-white/20">

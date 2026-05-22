@@ -462,7 +462,7 @@ export default function CartPage() {
                   </div>
 
                   <div className="space-y-1">
-                    <h4 className="text-xs font-black text-zinc-900 leading-snug line-clamp-2 min-h-[32px] group-hover:text-[#E31B23] transition-colors cursor-pointer">
+                    <h4 className="text-xs font-black text-zinc-900 leading-snug line-clamp-2 group-hover:text-[#E31B23] transition-colors cursor-pointer">
                       {prod.name}
                     </h4>
                     
