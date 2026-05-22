@@ -225,11 +225,11 @@ export default function Footer() {
         <div className="mx-auto max-w-7xl pt-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
-              <div className="bg-[#E31B23] text-white font-extrabold px-2 py-0.5 rounded-xs tracking-tighter text-sm uppercase">BLICK</div>
+              <div className="bg-[#E31B23] text-white font-extrabold px-2 py-0.5 rounded-xs tracking-tighter text-sm uppercase">Syntrix Systems</div>
               <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-wider">Art Materials Since 1911</span>
             </div>
             <p className="text-[10px] text-zinc-500 max-w-md font-medium leading-relaxed">
-              © {new Date().getFullYear()} Blick Art Materials. All rights reserved. All prices, packaging, and descriptions on this site are subject to change without notice. Art supplies, custom framing, canvases.
+              © {new Date().getFullYear()} Syntrix Systems. All rights reserved. All prices, packaging, and descriptions on this site are subject to change without notice. Art supplies, custom framing, canvases.
             </p>
           </div>
 

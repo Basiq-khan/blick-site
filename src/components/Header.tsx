@@ -10,7 +10,6 @@ import {
   Trash2,
   Plus,
   Minus,
-  Palette,
   Truck,
   ArrowRight
 } from "lucide-react";
@@ -74,18 +73,18 @@ export default function Header() {
             <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
               <Link to="/stores" className="flex items-center gap-1.5 hover:text-[#ff3b42] transition-colors">
                 <MapPin className="size-3 text-[#ff3b42]" />
-                <span className="text-zinc-200">Find a Store</span>
+                <span className="text-zinc-900">Find a Store</span>
               </Link>
-              <span className="text-zinc-700">|</span>
-              <span className="flex items-center gap-1.5 text-zinc-300">
+              <span className="text-zinc-900">|</span>
+              <span className="flex items-center gap-1.5 text-zinc-900">
                 <Truck className="size-3.5 text-emerald-400" />
                 <span>Free Shipping on Orders Over $75*</span>
               </span>
             </div>
-            <div className="flex items-center gap-4 text-zinc-400">
-              <a href="tel:18008284548" className="hover:text-white transition-colors">Call: 1-800-828-4548</a>
+            <div className="flex items-center gap-4 text-zinc-900">
+              <a href="tel:18008284548" className="hover:text-zinc-700 transition-colors">Call: 1 (630) 463-8489</a>
               <span className="text-zinc-700">|</span>
-              <a href="#help" className="flex items-center gap-1 hover:text-white transition-colors">
+              <a href="#help" className="flex items-center gap-1 hover:text-zinc-700 transition-colors">
                 <HelpCircle className="size-3" />
                 <span>Help Center</span>
               </a>
@@ -111,7 +110,7 @@ export default function Header() {
                 className="flex items-center gap-2 group"
               >
                 <div className="bg-[#E31B23] text-white font-extrabold px-3.5 py-2 rounded-sm tracking-tighter text-xl sm:text-2xl transform group-hover:scale-105 transition-all shadow-md">
-                  BLICK
+                  Syntrix Systems
                 </div>
                 <div className="hidden flex-col justify-center sm:flex border-l border-zinc-200 pl-2">
                   <span className="text-[10px] font-black tracking-widest text-[#E31B23] uppercase leading-none">Art Materials</span>
@@ -203,10 +202,10 @@ export default function Header() {
               </Link>
 
               {/* Blick Art Room (Desktop Only) */}
-              <a href="#art-room" className="hidden flex-col items-center justify-center text-zinc-700 hover:text-[#E31B23] transition-colors lg:flex">
+              {/* <a href="#art-room" className="hidden flex-col items-center justify-center text-zinc-700 hover:text-[#E31B23] transition-colors lg:flex">
                 <Palette className="size-5" />
                 <span className="text-[10px] font-bold uppercase tracking-wider mt-1">Art Room</span>
-              </a>
+              </a> */}
 
               {/* Account */}
               <Link
@@ -311,6 +310,53 @@ export default function Header() {
             )}
           </form>
         </div>
+
+        {/* Mobile Navigation Menu (Slide-down menu) */}
+        {isMobileMenuOpen && (
+          <nav className="lg:hidden border-b border-zinc-150 bg-zinc-50 py-3">
+            <div className="px-4 space-y-2">
+              {NAVIGATION_LINKS.map((link) => (
+                <button
+                  key={link}
+                  onClick={() => {
+                    goToTop();
+                    if (link === "Paints") navigate("/category/paints");
+                    else navigate(link === "More Categories" ? "/search" : `/search?category=${encodeURIComponent(link)}`);
+                    setIsMobileMenuOpen(false);
+                  }}
+                  className="w-full text-left px-4 py-3 text-sm font-bold uppercase tracking-wider text-zinc-700 hover:text-[#E31B23] hover:bg-white rounded-lg transition-colors"
+                >
+                  {link}
+                </button>
+              ))}
+              <button
+                onClick={() => {
+                  navigate("/pages/sign-in");
+                  setIsMobileMenuOpen(false);
+                }}
+                className="w-full text-left px-4 py-3 text-sm font-bold uppercase tracking-wider text-zinc-700 hover:text-[#E31B23] hover:bg-white rounded-lg transition-colors border-t border-zinc-200 mt-2"
+              >
+                My Account
+              </button>
+              <button
+                onClick={() => {
+                  navigate("/stores");
+                  setIsMobileMenuOpen(false);
+                }}
+                className="w-full text-left px-4 py-3 text-sm font-bold uppercase tracking-wider text-zinc-700 hover:text-[#E31B23] hover:bg-white rounded-lg transition-colors"
+              >
+                Find a Store
+              </button>
+              <a
+                href="#sale"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="block w-full text-left px-4 py-3 rounded-lg bg-[#E31B23] text-xs font-bold text-white uppercase tracking-wider hover:bg-black transition-all mt-2"
+              >
+                Sale & Clearance
+              </a>
+            </div>
+          </nav>
+        )}
 
         {/* Category Navigation Bar (Desktop Only): SLIGHTLY DIFFERENT (Finer top tab borders) */}
         <nav className="hidden border-b border-zinc-150 bg-[#141416] py-2.5 lg:block transition-all">

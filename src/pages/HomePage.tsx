@@ -26,7 +26,7 @@ export default function HomePage() {
         selectedCategory=""
         onSelectCategory={handleSelectCategory}
       /> */}
-      
+
       <main className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 space-y-16">
         {/* Featured Deals Section */}
         <section>
@@ -77,7 +77,7 @@ export default function HomePage() {
         {/* Clearance Section */}
         <section className="rounded-3xl bg-zinc-900 px-6 py-10 sm:px-10 mt-12 relative overflow-hidden">
           <div className="absolute top-0 right-0 w-64 h-64 bg-[#E31B23] opacity-10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 pointer-events-none"></div>
-          
+
           <div className="mb-8 flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between relative z-10">
             <div>
               <div className="flex items-center gap-2 mb-1">

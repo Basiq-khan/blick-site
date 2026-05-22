@@ -47,11 +47,11 @@ export default function CategoryLandingPage() {
         
         {/* Hero Banner */}
         <div className="relative overflow-hidden rounded-2xl bg-zinc-900 group cursor-pointer mb-12" onClick={() => handleSelectSubcategory("Acrylics")}>
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent z-10" />
+          <div className="absolute inset-0 bg-linear-to-r from-black/80 via-black/50 to-transparent z-10" />
           <img 
             src="https://images.unsplash.com/photo-1599833587642-1e9ef5ea06b2?auto=format&fit=crop&w=1200&q=80" 
             alt="Paints Banner" 
-            className="w-full h-[280px] object-cover transition-transform duration-700 group-hover:scale-105"
+            className="w-full h-70 object-cover transition-transform duration-700 group-hover:scale-105"
           />
           <div className="absolute inset-0 z-20 flex flex-col justify-center px-8 sm:px-12">
             <span className="text-[#ff3b42] font-black uppercase tracking-widest text-xs mb-2">Featured Selection</span>

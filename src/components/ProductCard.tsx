@@ -26,7 +26,7 @@ export default function ProductCard({ product, onAddToCart, onClickProduct }: Pr
 
   return (
     <div className="group relative flex flex-col justify-between rounded-2xl border border-zinc-100 bg-white p-4.5 shadow-xs transition-all duration-300 hover:-translate-y-1 hover:border-[#E31B23]/15 hover:shadow-xl hover:shadow-zinc-200/50">
-      
+
       {/* Badges and Wishlist Button */}
       <div className="absolute left-3 top-3 z-10 flex flex-col gap-1.5">
         {product.isNew && (
@@ -53,7 +53,7 @@ export default function ProductCard({ product, onAddToCart, onClickProduct }: Pr
       </button>
 
       {/* Product Image */}
-      <div 
+      <div
         onClick={() => onClickProduct?.(product)}
         className="relative mb-4 aspect-square overflow-hidden rounded-xl bg-zinc-55 border border-zinc-50 cursor-pointer"
       >
@@ -70,8 +70,8 @@ export default function ProductCard({ product, onAddToCart, onClickProduct }: Pr
         <div className="text-[10px] font-bold text-zinc-400 uppercase tracking-widest leading-none">
           {product.category}
         </div>
-        
-        <h4 
+
+        <h4
           onClick={() => onClickProduct?.(product)}
           className="text-sm font-extrabold text-zinc-800 line-clamp-2 leading-snug min-h-[40px] group-hover:text-[#E31B23] transition-colors cursor-pointer"
         >
