@@ -700,7 +700,7 @@ export default function FooterPage() {
                 {section.heading}
               </h2>
             </div>
-            <div className="ml-[18px] border-l-2 border-zinc-100 pl-5 mt-3">
+            <div className="ml-4.5 border-l-2 border-zinc-100 pl-5 mt-3">
               <p className="text-sm text-zinc-600 leading-relaxed whitespace-pre-line">
                 {section.body}
               </p>

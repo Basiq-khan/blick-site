@@ -1,9 +1,7 @@
 import { useState } from "react";
 import {
   Search,
-  MapPin,
   User,
-  HelpCircle,
   ShoppingCart,
   Menu,
   X,

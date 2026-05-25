@@ -89,7 +89,7 @@ export default function ListingPage() {
                   className="rounded-full p-0.5 hover:bg-[#E31B23]/10 transition-colors"
                   aria-label="Clear search query"
                 >
-                  <X className="size-3 stroke-[3]" />
+                  <X className="size-3 stroke-3" />
                 </button>
               </div>
             )}
@@ -101,7 +101,7 @@ export default function ListingPage() {
                   className="rounded-full p-0.5 hover:bg-amber-100 transition-colors"
                   aria-label="Clear category filter"
                 >
-                  <X className="size-3 stroke-[3]" />
+                  <X className="size-3 stroke-3" />
                 </button>
               </div>
             )}

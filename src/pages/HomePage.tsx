@@ -35,7 +35,7 @@ export default function HomePage() {
               <Sparkles className="size-5 text-amber-500" />
               <h2 className="text-xl font-black text-zinc-900 uppercase tracking-wide">Featured Deals</h2>
             </div>
-            <a href="#deals" className="text-sm font-bold text-[#E31B23] hover:underline uppercase tracking-wider">
+            <a href="search?category=brushes%20%26%20painting%20tools" className="text-sm font-bold text-[#E31B23] hover:underline uppercase tracking-wider">
               View All &rsaquo;
             </a>
           </div>
@@ -58,7 +58,7 @@ export default function HomePage() {
               <Package className="size-5 text-emerald-500" />
               <h2 className="text-xl font-black text-zinc-900 uppercase tracking-wide">Featured Art Supplies</h2>
             </div>
-            <a href="#supplies" className="text-sm font-bold text-[#E31B23] hover:underline uppercase tracking-wider">
+            <a href="search?category=easels%20%26%20furniture" className="text-sm font-bold text-[#E31B23] hover:underline uppercase tracking-wider">
               View All &rsaquo;
             </a>
           </div>

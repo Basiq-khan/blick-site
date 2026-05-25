@@ -278,7 +278,7 @@ export default function StoresPage() {
       </div>
 
       {/* ─── Hero Banner ─────────────────────────────────────── */}
-      <div className="relative overflow-hidden bg-gradient-to-br from-[#0a0a0b] via-[#1a1a1e] to-[#0a0a0b]">
+      <div className="relative overflow-hidden bg-linear-to-br from-[#0a0a0b] via-[#1a1a1e] to-[#0a0a0b]">
         {/* Decorative dots */}
         <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: "radial-gradient(circle, #fff 1px, transparent 1px)", backgroundSize: "24px 24px" }} />
         <div className="absolute top-0 right-0 w-96 h-96 bg-[#E31B23]/10 rounded-full blur-[120px] -translate-y-1/2 translate-x-1/3" />

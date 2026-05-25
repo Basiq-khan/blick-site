@@ -119,7 +119,7 @@ export default function VideoBanner() {
                 alt={activeVideo.title} 
                 className="absolute inset-0 size-full object-cover opacity-30" 
               />
-              <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/80" />
+              <div className="absolute inset-0 bg-linear-to-b from-transparent to-black/80" />
               
               <div className="relative z-10 text-center space-y-4 px-6 max-w-md">
                 <div className="inline-flex size-16 items-center justify-center rounded-full bg-emerald-500 text-white shadow-lg animate-bounce">
