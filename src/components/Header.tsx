@@ -344,13 +344,24 @@ export default function Header() {
               >
                 Find a Store
               </button>
-              <a
-                href="/product/easels-and-furniture-4"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className="block w-full text-left px-4 py-3 rounded-lg bg-[#E31B23] text-xs font-bold text-white uppercase tracking-wider hover:bg-black transition-all mt-2"
+              {/* <button
+                onClick={() => {
+                  navigate("/search?category=drawing & illustration");
+                  setIsMobileMenuOpen(false);
+                }}
+                className="block w-full text-left px-4 py-3 rounded-lg bg-zinc-200 text-xs font-bold text-zinc-800 uppercase tracking-wider hover:bg-zinc-300 transition-all mt-2 cursor-pointer border-none"
+              >
+                Drawing & Illustration
+              </button> */}
+              <button
+                onClick={() => {
+                  navigate("/search?category=drawing & illustration");
+                  setIsMobileMenuOpen(false);
+                }}
+                className="block w-full text-left px-4 py-3 rounded-lg bg-[#E31B23] text-xs font-bold text-white uppercase tracking-wider hover:bg-black transition-all mt-2 cursor-pointer border-none"
               >
                 Sale & Clearance
-              </a>
+              </button>
             </div>
           </nav>
         )}
@@ -376,12 +387,24 @@ export default function Header() {
             </div>
 
             <div className="flex items-center gap-3">
-              <a
-                href="/product/easels-and-furniture-4"
-                className="rounded-lg bg-[#E31B23] px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-white hover:text-[#E31B23] transition-all border border-[#E31B23] shadow-xs"
+              {/* <button
+                onClick={() => {
+                  goToTop();
+                  navigate("/search?category=drawing & illustration");
+                }}
+                className="rounded-lg bg-zinc-600 px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-zinc-700 transition-all border border-zinc-600 shadow-xs cursor-pointer"
+              >
+                Drawing & Illustration
+              </button> */}
+              <button
+                onClick={() => {
+                  goToTop();
+                  navigate("/search?category=drawing & illustration");
+                }}
+                className="rounded-lg bg-[#E31B23] px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-white hover:text-[#E31B23] transition-all border border-[#E31B23] shadow-xs cursor-pointer"
               >
                 Sale & Clearance
-              </a>
+              </button>
             </div>
           </div>
         </nav>
