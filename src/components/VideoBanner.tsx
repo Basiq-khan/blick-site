@@ -61,7 +61,7 @@ export default function VideoBanner() {
                   alt={video.title} 
                   className="size-full object-cover opacity-80 group-hover:opacity-60 group-hover:scale-105 transition-all duration-700" 
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black/50 to-transparent" />
                 
                 {/* Pulsing Play Button */}
                 <div className="absolute inset-0 flex items-center justify-center">

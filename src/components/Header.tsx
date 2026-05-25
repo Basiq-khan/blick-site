@@ -71,23 +71,22 @@ export default function Header() {
         <div className="from-[#0a0a0b] via-[#1c1c1f] to-[#0a0a0b] py-2 px-4 text-xs font-semibold text-zinc-300 transition-colors duration-250 sm:px-6 shadow-sm border-b border-zinc-900/50">
           <div className="mx-auto flex max-w-7xl flex-col gap-1.5 sm:flex-row sm:items-center sm:justify-between">
             <div className="flex flex-wrap items-center gap-x-4 gap-y-1">
-              <Link to="/stores" className="flex items-center gap-1.5 hover:text-[#ff3b42] transition-colors">
+              {/* <Link to="/stores" className="flex items-center gap-1.5 hover:text-[#ff3b42] transition-colors">
                 <MapPin className="size-3 text-[#ff3b42]" />
                 <span className="text-zinc-900">Find a Store</span>
-              </Link>
-              <span className="text-zinc-900">|</span>
+              </Link> */}
+            </div>
+            <div className="flex items-center gap-4 text-zinc-900">
+              <a href="tel:1 (630) 463-8489" className="hover:text-zinc-700 transition-colors">Call: 1 (630) 463-8489</a>
+              <span className="text-zinc-700">|</span>
               <span className="flex items-center gap-1.5 text-zinc-900">
                 <Truck className="size-3.5 text-emerald-400" />
                 <span>Free Shipping on Orders Over $75*</span>
               </span>
-            </div>
-            <div className="flex items-center gap-4 text-zinc-900">
-              <a href="tel:18008284548" className="hover:text-zinc-700 transition-colors">Call: 1 (630) 463-8489</a>
-              <span className="text-zinc-700">|</span>
-              <a href="#help" className="flex items-center gap-1 hover:text-zinc-700 transition-colors">
+              {/* <a href="#help" className="flex items-center gap-1 hover:text-zinc-700 transition-colors">
                 <HelpCircle className="size-3" />
                 <span>Help Center</span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -110,7 +109,7 @@ export default function Header() {
                 className="flex items-center gap-2 group"
               >
                 <div className="bg-[#E31B23] text-white font-extrabold px-3.5 py-2 rounded-sm tracking-tighter text-xl sm:text-2xl transform group-hover:scale-105 transition-all shadow-md">
-                  Syntrix Systems
+                Syntrix Shop
                 </div>
                 <div className="hidden flex-col justify-center sm:flex border-l border-zinc-200 pl-2">
                   <span className="text-[10px] font-black tracking-widest text-[#E31B23] uppercase leading-none">Art Materials</span>
@@ -196,10 +195,10 @@ export default function Header() {
             <div className="flex items-center gap-2 sm:gap-4">
 
               {/* Stores (Desktop Only) */}
-              <Link to="/stores" className="hidden flex-col items-center justify-center text-zinc-700 hover:text-[#E31B23] transition-colors lg:flex">
+              {/* <Link to="/stores" className="hidden flex-col items-center justify-center text-zinc-700 hover:text-[#E31B23] transition-colors lg:flex">
                 <MapPin className="size-5" />
                 <span className="text-[10px] font-bold uppercase tracking-wider mt-1">Stores</span>
-              </Link>
+              </Link> */}
 
               {/* Blick Art Room (Desktop Only) */}
               {/* <a href="#art-room" className="hidden flex-col items-center justify-center text-zinc-700 hover:text-[#E31B23] transition-colors lg:flex">
@@ -348,7 +347,7 @@ export default function Header() {
                 Find a Store
               </button>
               <a
-                href="#sale"
+                href="/product/farming-and-matboard"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="block w-full text-left px-4 py-3 rounded-lg bg-[#E31B23] text-xs font-bold text-white uppercase tracking-wider hover:bg-black transition-all mt-2"
               >
@@ -380,7 +379,7 @@ export default function Header() {
 
             <div className="flex items-center gap-3">
               <a
-                href="#sale"
+                href="search?category=ceramics%20%26%20sculpture"
                 className="rounded-lg bg-[#E31B23] px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-white hover:text-[#E31B23] transition-all border border-[#E31B23] shadow-xs"
               >
                 Sale & Clearance

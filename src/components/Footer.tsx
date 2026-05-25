@@ -225,7 +225,7 @@ export default function Footer() {
         <div className="mx-auto max-w-7xl pt-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
           <div className="flex flex-col gap-2">
             <div className="flex items-center gap-2">
-              <div className="bg-[#E31B23] text-white font-extrabold px-2 py-0.5 rounded-xs tracking-tighter text-sm uppercase">Syntrix Systems</div>
+              <div className="bg-[#E31B23] text-white font-extrabold px-2 py-0.5 rounded-xs tracking-tighter text-sm uppercase">Syntrix Shop</div>
               <span className="text-[10px] text-zinc-500 font-bold uppercase tracking-wider">Art Materials Since 1911</span>
             </div>
             <p className="text-[10px] text-zinc-500 max-w-md font-medium leading-relaxed">
@@ -234,7 +234,7 @@ export default function Footer() {
           </div>
 
           {/* Social Icons */}
-          <div className="flex items-center gap-3">
+          {/* <div className="flex items-center gap-3">
             <a href="#" className="rounded-full bg-zinc-900 border border-zinc-800 p-2.5 text-zinc-400 hover:text-white hover:bg-[#E31B23] transition-all shadow-xs" aria-label="Facebook">
               <svg className="size-4 fill-current" viewBox="0 0 24 24">
                 <path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.8c4.56-.93 8-4.96 8-9.8z"/>
@@ -257,7 +257,7 @@ export default function Footer() {
                 <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.11C19.518 3.545 12 3.545 12 3.545s-7.518 0-9.388.508a3.003 3.003 0 0 0-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 0 0 2.11 2.11c1.87.508 9.388.508 9.388.508s7.518 0 9.388-.508a3.003 3.003 0 0 0 2.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
               </svg>
             </a>
-          </div>
+          </div> */}
         </div>
 
       </div>

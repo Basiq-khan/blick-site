@@ -73,7 +73,7 @@ export default function ProductCard({ product, onAddToCart, onClickProduct }: Pr
 
         <h4
           onClick={() => onClickProduct?.(product)}
-          className="text-sm font-extrabold text-zinc-800 line-clamp-2 leading-snug min-h-[40px] group-hover:text-[#E31B23] transition-colors cursor-pointer"
+          className="text-sm font-extrabold text-zinc-800 line-clamp-2 leading-snug min-h-10 group-hover:text-[#E31B23] transition-colors cursor-pointer"
         >
           {product.name}
         </h4>

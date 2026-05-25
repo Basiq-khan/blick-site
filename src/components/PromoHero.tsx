@@ -10,7 +10,7 @@ export default function PromoHero() {
         <div className="grid grid-cols-1 gap-6 lg:grid-cols-4 lg:grid-rows-2">
           
           {/* 1. Watercolor, Uncapped (Left Column - Spans 2 Rows on Desktop) */}
-          <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-b from-[#e0f2fe] via-[#bae6fd] to-[#bae6fd] p-8 flex flex-col justify-between min-h-[440px] lg:col-span-1 lg:row-span-2 shadow-sm border border-sky-200/60 outline outline-4 outline-sky-50/30 hover:shadow-xl hover:outline-sky-100/50 transition-all duration-550">
+          <div className="group relative overflow-hidden rounded-3xl bg-linear-to-b from-[#e0f2fe] via-[#bae6fd] to-[#bae6fd] p-8 flex flex-col justify-between min-h-110 lg:col-span-1 lg:row-span-2 shadow-sm border border-sky-200/60 outline-4 outline-sky-50/30 hover:shadow-xl hover:outline-sky-100/50 transition-all duration-550">
             {/* Background art element */}
             <div className="absolute right-0 top-0 h-64 w-64 bg-[url('https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=400&q=80')] bg-cover opacity-25 group-hover:scale-108 transition-transform duration-700 rounded-bl-full pointer-events-none" />
             
@@ -24,7 +24,7 @@ export default function PromoHero() {
               <h3 className="text-3xl font-black text-zinc-950 leading-tight">
                 Watercolor,<br />Uncapped
               </h3>
-              <p className="text-xs font-bold text-sky-900 leading-relaxed max-w-[220px]">
+              <p className="text-xs font-bold text-sky-900 leading-relaxed max-w-55">
                 For professional artists, student sketchers, and everyone in-between.
               </p>
             </div>
@@ -42,7 +42,7 @@ export default function PromoHero() {
           </div>
 
           {/* 2. Strathmore 400 Series Pads: SLIGHTLY DIFFERENT (Split Flex layout with a prominent white tag) */}
-          <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-r from-amber-50 to-orange-100 p-8 flex flex-col justify-between lg:col-span-2 shadow-sm border border-amber-200/60 outline outline-4 outline-amber-50/30 hover:shadow-xl transition-all duration-550 min-h-[200px]">
+          <div className="group relative overflow-hidden rounded-3xl bg-linear-to-r from-amber-50 to-orange-100 p-8 flex flex-col justify-between lg:col-span-2 shadow-sm border border-amber-200/60 outline-4 outline-amber-50/30 hover:shadow-xl transition-all duration-550 min-h-50">
             <div className="absolute right-0 inset-y-0 w-1/2 bg-[url('https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=400&q=80')] bg-cover bg-center opacity-35 group-hover:scale-105 transition-transform duration-700 rounded-l-3xl pointer-events-none" />
             
             <div className="relative flex items-center gap-1.5 self-start rounded-full bg-white/95 backdrop-blur-xs px-3 py-1.5 text-[9px] font-bold text-amber-900 uppercase tracking-widest border border-amber-200 shadow-sm">
@@ -72,9 +72,9 @@ export default function PromoHero() {
           </div>
 
           {/* 3. Custom Framing: SLIGHTLY DIFFERENT (Glowing gold borders and refined text styling) */}
-          <div className="group relative overflow-hidden rounded-3xl bg-zinc-950 p-8 flex flex-col justify-between min-h-[440px] lg:col-span-1 lg:row-span-2 shadow-md border border-zinc-800 outline outline-4 outline-zinc-900/40 hover:shadow-xl transition-all duration-550">
+          <div className="group relative overflow-hidden rounded-3xl bg-zinc-950 p-8 flex flex-col justify-between min-h-110 lg:col-span-1 lg:row-span-2 shadow-md border border-zinc-800 outline-4 outline-zinc-900/40 hover:shadow-xl transition-all duration-550">
             <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=400&q=80')] bg-cover bg-center opacity-30 group-hover:scale-105 transition-transform duration-700 pointer-events-none" />
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/55 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-t from-black via-black/55 to-transparent" />
             
             <div className="relative flex items-center gap-1.5 self-start rounded-full bg-amber-500 text-zinc-950 px-3 py-1.5 text-[9px] font-black uppercase tracking-widest shadow-md">
               <Sparkles className="size-3" />
@@ -85,7 +85,7 @@ export default function PromoHero() {
               <h3 className="text-2xl sm:text-3xl font-black text-white leading-tight tracking-tight">
                 Premium<br />Custom Framing
               </h3>
-              <p className="text-xs font-bold text-zinc-350 leading-relaxed max-w-[200px]">
+              <p className="text-xs font-bold text-white leading-relaxed max-w-50">
                 Expertly hand-crafted framing. Premium wood, gold leaf, and linen mats delivered directly to your door.
               </p>
             </div>
@@ -103,7 +103,7 @@ export default function PromoHero() {
           </div>
 
           {/* 4. Overstock Liquidation Sale (Bottom Middle Left) */}
-          <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-br from-[#E31B23] via-[#c9141b] to-zinc-950 p-6 flex flex-col justify-between shadow-sm border border-red-500 outline outline-4 outline-red-50/20 hover:shadow-xl transition-all duration-550 min-h-[200px] lg:col-span-1">
+          <div className="group relative overflow-hidden rounded-3xl bg-linear-to-br from-[#E31B23] via-[#c9141b] to-zinc-950 p-6 flex flex-col justify-between shadow-sm border border-red-500 outline-4 outline-red-50/20 hover:shadow-xl transition-all duration-550 min-h-50 lg:col-span-1">
             <div className="relative flex items-center gap-1.5 self-start rounded-full bg-white/20 backdrop-blur-xs px-2.5 py-1 text-[9px] font-bold text-white uppercase tracking-widest">
               <Flame className="size-3 text-yellow-300 animate-bounce" />
               <span>Blowout Deals</span>
@@ -129,7 +129,7 @@ export default function PromoHero() {
           </div>
 
           {/* 5. Blick Acrylic Paint Tubes (Bottom Middle Right) */}
-          <div className="group relative overflow-hidden rounded-3xl bg-gradient-to-r from-emerald-55 to-teal-100 p-6 flex flex-col justify-between shadow-sm border border-emerald-200 outline outline-4 outline-emerald-50/30 hover:shadow-xl transition-all duration-550 min-h-[200px] lg:col-span-1">
+          <div className="group relative overflow-hidden rounded-3xl bg-linear-to-r from-emerald-55 to-teal-100 p-6 flex flex-col justify-between shadow-sm border border-emerald-200 outline-4 outline-emerald-50/30 hover:shadow-xl transition-all duration-550 min-h-50 lg:col-span-1">
             <div className="absolute right-0 bottom-0 h-32 w-32 bg-[url('https://images.unsplash.com/photo-1599833587642-1e9ef5ea06b2?auto=format&fit=crop&w=300&q=80')] bg-cover opacity-25 group-hover:scale-108 transition-transform duration-700 pointer-events-none rounded-tl-full" />
             
             <div className="relative flex items-center gap-1.5 self-start rounded-full bg-white/95 backdrop-blur-xs px-2.5 py-1 text-[9px] font-bold text-emerald-800 uppercase tracking-widest border border-emerald-200 shadow-sm">
@@ -142,7 +142,7 @@ export default function PromoHero() {
                 Blick Studio Acrylics
               </h3>
               <p className="text-[11px] font-black text-emerald-800 mt-0.5">Save 28-47% Off List</p>
-              <p className="text-[10px] text-zinc-550 mt-1 max-w-[150px] font-semibold leading-relaxed">
+              <p className="text-[10px] text-zinc-550 mt-1 max-w-37.5 font-semibold leading-relaxed">
                 High pigment loads and smooth buttery textures.
               </p>
             </div>

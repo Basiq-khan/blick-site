@@ -38,7 +38,7 @@ export default function QuickActionBoxes() {
               <a 
                 key={act.title}
                 href={act.href}
-                className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#0284c7] to-[#0369a1] p-6 text-white shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-sky-600/10"
+                className="group relative overflow-hidden rounded-2xl bg-linear-to-br from-[#0284c7] to-[#0369a1] p-6 text-white shadow-sm hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border border-sky-600/10"
               >
                 {/* Background decorative bubble */}
                 <div className="absolute -right-6 -bottom-6 size-28 rounded-full bg-white/10 opacity-20 blur-md group-hover:scale-125 transition-transform" />
