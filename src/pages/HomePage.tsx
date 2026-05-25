@@ -35,9 +35,12 @@ export default function HomePage() {
               <Sparkles className="size-5 text-amber-500" />
               <h2 className="text-xl font-black text-zinc-900 uppercase tracking-wide">Featured Deals</h2>
             </div>
-            <a href="search?category=brushes%20%26%20painting%20tools" className="text-sm font-bold text-[#E31B23] hover:underline uppercase tracking-wider">
+            <button 
+              onClick={() => navigate("/search")}
+              className="text-sm font-bold text-[#E31B23] hover:underline uppercase tracking-wider cursor-pointer bg-transparent border-none p-0"
+            >
               View All &rsaquo;
-            </a>
+            </button>
           </div>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             {FEATURED_DEALS.map((prod) => (
@@ -58,9 +61,12 @@ export default function HomePage() {
               <Package className="size-5 text-emerald-500" />
               <h2 className="text-xl font-black text-zinc-900 uppercase tracking-wide">Featured Art Supplies</h2>
             </div>
-            <a href="search?category=easels%20%26%20furniture" className="text-sm font-bold text-[#E31B23] hover:underline uppercase tracking-wider">
+            <button 
+              onClick={() => navigate("/search")}
+              className="text-sm font-bold text-[#E31B23] hover:underline uppercase tracking-wider cursor-pointer bg-transparent border-none p-0"
+            >
               View All &rsaquo;
-            </a>
+            </button>
           </div>
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
             {FEATURED_ART_SUPPLIES.map((prod) => (
@@ -86,9 +92,12 @@ export default function HomePage() {
               </div>
               <p className="text-xs text-zinc-400 font-bold uppercase tracking-wider">Last-chance savings on premium art canvases and brushes</p>
             </div>
-            {/* <a href="#clearance" className="text-xs font-bold text-[#E31B23] hover:underline uppercase tracking-wider">
+            <button 
+              onClick={() => navigate("/search?category=Clearance")}
+              className="text-xs font-bold text-[#E31B23] hover:underline uppercase tracking-wider cursor-pointer bg-transparent border-none p-0"
+            >
               Shop All Clearance &rsaquo;
-            </a> */}
+            </button>
           </div>
 
           <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 relative z-10">

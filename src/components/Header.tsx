@@ -345,7 +345,7 @@ export default function Header() {
                 Find a Store
               </button>
               <a
-                href="/product/farming-and-matboard"
+                href="/product/easels-and-furniture-4"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="block w-full text-left px-4 py-3 rounded-lg bg-[#E31B23] text-xs font-bold text-white uppercase tracking-wider hover:bg-black transition-all mt-2"
               >
@@ -377,7 +377,7 @@ export default function Header() {
 
             <div className="flex items-center gap-3">
               <a
-                href="search?category=ceramics%20%26%20sculpture"
+                href="/product/easels-and-furniture-4"
                 className="rounded-lg bg-[#E31B23] px-3.5 py-1.5 text-xs font-bold uppercase tracking-wider text-white hover:bg-white hover:text-[#E31B23] transition-all border border-[#E31B23] shadow-xs"
               >
                 Sale & Clearance
