@@ -1,4 +1,4 @@
-﻿export interface Product {
+export interface Product {
   id: string;
   name: string;
   category: string;
@@ -16,7 +16,7 @@
 
 export const ALL_PRODUCTS: Product[] = [
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6qWu2Q59xxqh80bcaivZ2M/c2ef84277d313f07d315f00f3ab52b93/06461-Group-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/06461-Group-1-4ww.jpg",
         "rating":  4.8,
         "id":  "brushes-and-painting-tools",
         "price":  4.93,
@@ -32,7 +32,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1FYuIUqhvqglouUOyPDFki/6b2fcb3af2f10195af2ab5cec6f56afd/06421-Group-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/06421-Group-M-4ww.jpg",
         "rating":  4.8,
         "id":  "brushes-and-painting-tools-1",
         "price":  4.79,
@@ -48,7 +48,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3BxcL12fBRNncbcFlFmIaK/6c582a67a707ff89606aeee1aa9ac672/09160-GroupAll-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/09160-GroupAll-1-4ww.jpg",
         "rating":  4.9,
         "id":  "brushes-and-painting-tools-2",
         "price":  8.29,
@@ -64,7 +64,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3XZuZUFBAuojneT134gAoe/519f32164e25fb60a59c76982d25bf5a/06280-1269-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/06280-1269-1-4ww.jpg",
         "rating":  4.5,
         "id":  "brushes-and-painting-tools-3",
         "price":  5.13,
@@ -80,7 +80,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2DqaAOd8kvsJxxjBVJzPJa/f9413efe7657395d5ef5bac1be76b5bf/06223-9153-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/06223-9153-M-4ww.jpg",
         "rating":  4.7,
         "id":  "brushes-and-painting-tools-4",
         "price":  5.5,
@@ -96,7 +96,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_3840/f_auto/q_auto/v1/06223-9153-M-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/06223-9153-M-4ww_1.jpg",
         "rating":  4.7,
         "id":  "brushes-and-painting-tools-5",
         "price":  1.6,
@@ -112,7 +112,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_3840/f_auto/q_auto/v1/06082-2619-2-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/06082-2619-2-4ww.jpg",
         "rating":  4.5,
         "id":  "brushes-and-painting-tools-6",
         "price":  7.4,
@@ -128,7 +128,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_1920/f_auto/q_auto/v1/06644-Group-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/06644-Group-4ww.jpg",
         "rating":  4.7,
         "id":  "brushes-and-painting-tools-7",
         "price":  10.01,
@@ -144,7 +144,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_750/f_auto/q_auto/v1/04616-Group-1-3ww-l?_a=BAVAZGDY0",
+        "image":  "/images/products/04616-Group-1-3ww-l.jpg",
         "rating":  4.8,
         "id":  "brushes-and-painting-tools-8",
         "price":  9.02,
@@ -160,7 +160,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/TpypBq9xc9eslQL9a9ovT/d369abfd1f060fbb6c118e5beaabc356/06280-1139-3-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/06280-1139-3-4ww.jpg",
         "rating":  4.2,
         "id":  "brushes-and-painting-tools-9",
         "price":  5.14,
@@ -176,7 +176,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_750/f_auto/q_auto/v1/04627-group-1-3ww-l?_a=BAVAZGDY0",
+        "image":  "/images/products/04627-group-1-3ww-l.jpg",
         "rating":  4.7,
         "id":  "brushes-and-painting-tools-10",
         "price":  9.06,
@@ -192,7 +192,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_1920/f_auto/q_auto/v1/05891-1079-1-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/05891-1079-1-4ww.jpg",
         "rating":  4.8,
         "id":  "brushes-and-painting-tools-11",
         "price":  3.85,
@@ -208,7 +208,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_750/f_auto/q_auto/v1/05358-group3ww-l?_a=BAVAZGDY0",
+        "image":  "/images/products/05358-group3ww-l.jpg",
         "rating":  4.6,
         "id":  "brushes-and-painting-tools-12",
         "price":  2.69,
@@ -224,7 +224,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_3840/f_auto/q_auto/v1/06223-9130-M-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/06223-9130-M-4ww.jpg",
         "rating":  4.8,
         "id":  "brushes-and-painting-tools-13",
         "price":  4.21,
@@ -240,7 +240,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_1920/f_auto/q_auto/v1/09124-09128-Group-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/09124-09128-Group-4ww.jpg",
         "rating":  4.5,
         "id":  "brushes-and-painting-tools-14",
         "price":  12.29,
@@ -256,7 +256,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3ckdQzkwOagnuz7lybYwDj/324c7d161c67059b48c3a4365df6bfa4/07140-group3ww-l.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/07140-group3ww-l.jpg",
         "rating":  4.7,
         "id":  "canvas-and-surfaces",
         "price":  3.82,
@@ -272,7 +272,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/cfQrE4gQjCJVNWastAmjb/831ab8e83c5f4fecd7f7a79d44c33692/07526-group-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/07526-group-1-4ww.jpg",
         "rating":  4.8,
         "id":  "canvas-and-surfaces-1",
         "price":  16.99,
@@ -288,7 +288,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6cnOgILFkP7Lt2FEXcdcmt/13dc66e835afe8f50d4c3f60613b351f/07135-group-2-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/07135-group-2-1-4ww.jpg",
         "rating":  4.7,
         "id":  "canvas-and-surfaces-2",
         "price":  3.06,
@@ -304,7 +304,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2boPb0X4izdk5039ZeDxHJ/b698fb40a73ef7b9d4b9869d1e5e5dbe/MacPherson_banners-34.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/MacPherson_banners-34.jpg",
         "rating":  4.4,
         "id":  "canvas-and-surfaces-3",
         "price":  0.65,
@@ -320,7 +320,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/8zjRtVDNNj7U8z3WRQ4JU/d7d2862ab8638d60526a08d3919624cf/07161-1824-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/07161-1824-M-4ww.jpg",
         "rating":  4.6,
         "id":  "canvas-and-surfaces-4",
         "price":  16.46,
@@ -336,7 +336,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3WSs2NCJ3oWNP76pqdqb4H/8c0b5af56d97e9bfc099e64f0969d66b/07166-2228-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/07166-2228-M-4ww.jpg",
         "rating":  4,
         "id":  "canvas-and-surfaces-5",
         "price":  6.35,
@@ -352,7 +352,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5cMf0NRiQy836Esux41NzS/b7ed76cd7e315fb7274816aba8246731/07167-group-3ww-l.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/07167-group-3ww-l.jpg",
         "rating":  4.7,
         "id":  "canvas-and-surfaces-6",
         "price":  3.17,
@@ -368,7 +368,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2boPb0X4izdk5039ZeDxHJ/b698fb40a73ef7b9d4b9869d1e5e5dbe/MacPherson_banners-34.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/MacPherson_banners-34.jpg",
         "rating":  4,
         "id":  "canvas-and-surfaces-7",
         "price":  3.48,
@@ -384,7 +384,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2zh5IqvL6CuYAMW98HTPTw/3df29f082d3546fa7983787d72761de9/07108-1008-2-3ww-l.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/07108-1008-2-3ww-l.jpg",
         "rating":  4.5,
         "id":  "canvas-and-surfaces-8",
         "price":  6.65,
@@ -400,7 +400,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2boPb0X4izdk5039ZeDxHJ/b698fb40a73ef7b9d4b9869d1e5e5dbe/MacPherson_banners-34.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/MacPherson_banners-34.jpg",
         "rating":  5,
         "id":  "canvas-and-surfaces-9",
         "price":  0.65,
@@ -416,7 +416,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_1920/f_auto/q_auto/v1/07173-1020-M-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/07173-1020-M-4ww.jpg",
         "rating":  4.6,
         "id":  "canvas-and-surfaces-10",
         "price":  37.4,
@@ -432,7 +432,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_1920/f_auto/q_auto/v1/07162-1114-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/07162-1114-4ww.jpg",
         "rating":  4.3,
         "id":  "canvas-and-surfaces-11",
         "price":  25.74,
@@ -448,7 +448,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_3840/f_auto/q_auto/v1/07112-9002-M-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/07112-9002-M-4ww.jpg",
         "rating":  4.8,
         "id":  "canvas-and-surfaces-12",
         "price":  12.76,
@@ -464,7 +464,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_3840/f_auto/q_auto/v1/07703-1005-M-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/07703-1005-M-4ww.jpg",
         "rating":  4.7,
         "id":  "canvas-and-surfaces-13",
         "price":  14.56,
@@ -480,7 +480,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_750/f_auto/q_auto/v1/07197-1402-3ww-l?_a=BAVAZGDY0",
+        "image":  "/images/products/07197-1402-3ww-l.jpg",
         "rating":  4.5,
         "id":  "canvas-and-surfaces-14",
         "price":  3.99,
@@ -496,7 +496,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3gJM7owlxw1WW8hGGmLwb3/6b9b569cb76494b931cd25e08f9650f8/30446-art-V-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/30446-art-V-4ww.jpg",
         "rating":  4.9,
         "id":  "ceramics-and-sculpture",
         "price":  19.16,
@@ -512,7 +512,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/339xITRJ2SIiwOMOQY7caK/62c1fa2b05273997c37577b41a1fd0f4/30411-6006-3-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/30411-6006-3-4ww.jpg",
         "rating":  4.8,
         "id":  "ceramics-and-sculpture-1",
         "price":  6.72,
@@ -528,7 +528,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2GORJcXGaj6rfQUCdx2CFe/46377a92286b9e55783d7dbb77731f01/30588-5396-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/30588-5396-M-4ww.jpg",
         "rating":  4.8,
         "id":  "ceramics-and-sculpture-2",
         "price":  10.62,
@@ -544,7 +544,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6t8swyL742OqpFp4MVYDXl/6a41484d6197c48e4c920769efd24304/30433-1003-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/30433-1003-M-4ww.jpg",
         "rating":  4.9,
         "id":  "ceramics-and-sculpture-3",
         "price":  16.61,
@@ -560,7 +560,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6K5xQXDRVDUxgv7aLrfV5N/cee6f5d1e87bf9b4202f5207243e3d8b/30489-6176-3ww-l.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/30489-6176-3ww-l.jpg",
         "rating":  4.9,
         "id":  "ceramics-and-sculpture-4",
         "price":  18.13,
@@ -576,7 +576,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5Vbtm3J12ZCYIrqhqSYR32/892e52736dbe1c578d7b35a8d7f7fc61/30587-1306-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/30587-1306-M-4ww.jpg",
         "rating":  4.8,
         "id":  "ceramics-and-sculpture-5",
         "price":  12.16,
@@ -592,7 +592,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1R9YWmfmh2ORgqcKOymgIr/c1d6a808918aca57ae3f312ada854797/30482-1009-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/30482-1009-M-4ww.jpg",
         "rating":  4.7,
         "id":  "ceramics-and-sculpture-6",
         "price":  14.09,
@@ -608,7 +608,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6b2DaXOpnp5MGLijMxfTJO/ebaba82fdc25a981da7a3830d020fc0d/30400-0029-4-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/30400-0029-4-4ww.jpg",
         "rating":  4.8,
         "id":  "ceramics-and-sculpture-7",
         "price":  17.73,
@@ -624,7 +624,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5RSS3OaWTk7Wubw2f3Xv9f/7e03aed9feaff21c943edf800ef330d9/30599-6416-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/30599-6416-M-4ww.jpg",
         "rating":  4.8,
         "id":  "ceramics-and-sculpture-8",
         "price":  13.18,
@@ -640,7 +640,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5se9v7IfsiLYUdtio8xudT/47b58b17b94c3061f67c7eab3bc3e5c5/30457-1129-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/30457-1129-M-4ww.jpg",
         "rating":  4.5,
         "id":  "ceramics-and-sculpture-9",
         "price":  6.61,
@@ -656,7 +656,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_1920/f_auto/q_auto/v1/30569-1001-1-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/30569-1001-1-4ww.jpg",
         "rating":  4.8,
         "id":  "ceramics-and-sculpture-10",
         "price":  16.03,
@@ -672,7 +672,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_1920/f_auto/q_auto/v1/83401-4740-M-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/83401-4740-M-4ww.jpg",
         "rating":  4.7,
         "id":  "ceramics-and-sculpture-11",
         "price":  10.54,
@@ -688,7 +688,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_1920/f_auto/q_auto/v1/30443-7246-M-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/30443-7246-M-4ww.jpg",
         "rating":  4.8,
         "id":  "ceramics-and-sculpture-12",
         "price":  13.13,
@@ -704,7 +704,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_1920/f_auto/q_auto/v1/30597-2026-M-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/30597-2026-M-4ww.jpg",
         "rating":  4.6,
         "id":  "ceramics-and-sculpture-13",
         "price":  10.67,
@@ -720,7 +720,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6ZNJmex81aWM0Llx3bYqAc/7be5275cbaa351575b782045981fb8e7/30446-2056-2-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/30446-2056-2-4ww.jpg",
         "rating":  4.9,
         "id":  "ceramics-and-sculpture-14",
         "price":  18.13,
@@ -736,7 +736,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/4ZNzGHLXUxLKtwzt84JdMO/4d261f6d1a6013b6e980689eb5db5917/19994-1109-4-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/19994-1109-4-4ww.jpg",
         "rating":  4.8,
         "id":  "drawing-and-illustration",
         "price":  2.8,
@@ -752,7 +752,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/60TFzapCjy4Zm5qHlF8qeE/35f0b26c7576cc655650cd73d142d0f9/21395-group-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/21395-group-4ww.jpg",
         "rating":  4.9,
         "id":  "drawing-and-illustration-1",
         "price":  4.39,
@@ -768,7 +768,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1vLVtFa7RrY8jtRLhMiMbX/ed05aaaaa27406283b3c667538191ae8/20702-0109-2-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/20702-0109-2-4ww.jpg",
         "rating":  4.8,
         "id":  "drawing-and-illustration-2",
         "price":  2.99,
@@ -784,7 +784,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/7msZfnuI7hmcjTM6fcRPY4/41982e088230a3990fa3b7f8e3e5268e/82320-group-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/82320-group-1-4ww.jpg",
         "rating":  4.8,
         "id":  "drawing-and-illustration-3",
         "price":  3.77,
@@ -800,7 +800,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/44obIC3JZJJ3Au8lVS8R7M/4fb7a0554ba5d6f2e2d25bbb4cc3ca6c/24532-Group-4-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/24532-Group-4-4ww.jpg",
         "rating":  4.7,
         "id":  "drawing-and-illustration-4",
         "price":  4.23,
@@ -816,7 +816,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6UkSM49fC8OFvbZqgixCOo/186a4b9a6b5ad2c5035f6e953ff81fca/21316-1039-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/21316-1039-M-4ww.jpg",
         "rating":  4.8,
         "id":  "drawing-and-illustration-5",
         "price":  0.74,
@@ -832,7 +832,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5VBZjn8hXv1fhMZfwbAPeC/7956ae3f41e24a9b1d30d00fb3e63544/21342-1059-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/21342-1059-M-4ww.jpg",
         "rating":  4.7,
         "id":  "drawing-and-illustration-6",
         "price":  2.17,
@@ -848,7 +848,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6iXImz6YZpiW17aKtIJA7k/22bfe19a8ff8b320f536c201d9538b04/21334-1279-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/21334-1279-M-4ww.jpg",
         "rating":  4.8,
         "id":  "drawing-and-illustration-7",
         "price":  2.52,
@@ -864,7 +864,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5RB0S9GP7ZH37N8C2wHBCw/7ca54332550453f58dd7ff6f5d00d025/22186-group-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/22186-group-1-4ww.jpg",
         "rating":  4.9,
         "id":  "drawing-and-illustration-8",
         "price":  2.73,
@@ -880,7 +880,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/67ccIrZzuJWPoqcTD6CRK3/dcb8dd7314fb99cd94f44bade82cf2ff/21303-1019-9-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/21303-1019-9-4ww.jpg",
         "rating":  4.6,
         "id":  "drawing-and-illustration-9",
         "price":  7.09,
@@ -896,7 +896,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3isitewSBuwrJx2x6Io6e7/d4d82045cdfe7a1c0e95f9ba905b8927/21218-1209-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/21218-1209-M-4ww.jpg",
         "rating":  4.5,
         "id":  "drawing-and-illustration-10",
         "price":  0.57,
@@ -912,7 +912,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3RIO3CkrZ8ZAR73DDdLp7Z/2382c79ae18adf926f68f36a801a7129/19910-0139-3-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/19910-0139-3-4ww.jpg",
         "rating":  4.6,
         "id":  "drawing-and-illustration-11",
         "price":  7.35,
@@ -928,7 +928,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6ctsDrm4wDWtdSctz2jgZd/85d6aa8dce32f757a1285105ba504b8c/22110-group-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/22110-group-1-4ww.jpg",
         "rating":  4.8,
         "id":  "drawing-and-illustration-12",
         "price":  4.1,
@@ -944,7 +944,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/m0jxXRqHJguqQroUGPoAJ/309394d1a9b8a2013535668a4618f9a8/87353-1005-3-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/87353-1005-3-4ww.jpg",
         "rating":  4.7,
         "id":  "drawing-and-illustration-13",
         "price":  2.78,
@@ -960,7 +960,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5MZUwWOPCJdguf81OsjVmN/1326cd6593e231d5818bd68b62a0e816/21315-1069-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/21315-1069-M-4ww.jpg",
         "rating":  4.7,
         "id":  "drawing-and-illustration-14",
         "price":  0.64,
@@ -976,7 +976,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/65OEgVc1hCL92Hodh0CES/cd6698b022f201e8a5905b84334bb6fb/49812-1011-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/49812-1011-M-4ww.jpg",
         "rating":  4.7,
         "id":  "easels-and-furniture",
         "price":  33.16,
@@ -992,7 +992,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/4ApOgYsyH2TReAj38P158l/c6e65d304df011b3b1d551a096ed6fd3/50391-Group-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/50391-Group-1-4ww.jpg",
         "rating":  4.7,
         "id":  "easels-and-furniture-1",
         "price":  38.21,
@@ -1008,7 +1008,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1NDZUh4RltHORXuZA0qbXz/458493fea5ff645fd979bbdd735b3c24/51753-1010-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/51753-1010-M-4ww.jpg",
         "rating":  4.6,
         "id":  "easels-and-furniture-2",
         "price":  178.19,
@@ -1024,7 +1024,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1f2YwSV9KAeP5xYBEMmI54/0a31561b0993751464fd72875cff059f/51753-1050-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/51753-1050-M-4ww.jpg",
         "rating":  4.4,
         "id":  "easels-and-furniture-3",
         "price":  174.49,
@@ -1040,7 +1040,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2boPb0X4izdk5039ZeDxHJ/b698fb40a73ef7b9d4b9869d1e5e5dbe/MacPherson_banners-34.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/MacPherson_banners-34.jpg",
         "rating":  5,
         "id":  "easels-and-furniture-4",
         "price":  9.99,
@@ -1056,7 +1056,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2boPb0X4izdk5039ZeDxHJ/b698fb40a73ef7b9d4b9869d1e5e5dbe/MacPherson_banners-34.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/MacPherson_banners-34.jpg",
         "rating":  0,
         "id":  "easels-and-furniture-5",
         "price":  26,
@@ -1072,7 +1072,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/457S4Ma1O3eLXpvfX50KsQ/411aa56db9904a314c1d6fbd57ac2267/52856-1001-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/52856-1001-M-4ww.jpg",
         "rating":  4.4,
         "id":  "easels-and-furniture-6",
         "price":  70.83,
@@ -1088,7 +1088,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6KG8qWWt7151cHHE5FDFqr/9c47f287120b09aa22a4c7dd667882ca/51588-1001-15-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/51588-1001-15-4ww.jpg",
         "rating":  4.3,
         "id":  "easels-and-furniture-7",
         "price":  144.97,
@@ -1104,7 +1104,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3RnZ8acg5lFkPEbtWztieF/b492bb4768af634acd1a8188570874a3/50437-1001-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/50437-1001-M-4ww.jpg",
         "rating":  5,
         "id":  "easels-and-furniture-8",
         "price":  124.99,
@@ -1120,7 +1120,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1DfwPLKCAMMLPeAQm2W6WV/d50e6e88b222a47997b5694063dc1229/83540-2400-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/83540-2400-M-4ww.jpg",
         "rating":  5,
         "id":  "easels-and-furniture-9",
         "price":  159.95,
@@ -1135,7 +1135,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1AS7CqiPenAmN5o2535fq4/31df8c05f850f875011d45d3a68386ed/50391-1003-2-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/50391-1003-2-4ww.jpg",
         "rating":  4.7,
         "id":  "easels-and-furniture-10",
         "price":  93.29,
@@ -1151,7 +1151,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2KMvoDMsYGB9NBXEVAsrqQ/8bf4857eab33a168896ce55af41c67c9/51753-1020-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/51753-1020-4ww.jpg",
         "rating":  4.6,
         "id":  "easels-and-furniture-11",
         "price":  234.63,
@@ -1167,7 +1167,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/4Fob5bakNdPyqi9TS0TU6n/d298337b8fd2b87663203e0aa8705823/50577-1001-3-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/50577-1001-3-4ww.jpg",
         "rating":  4.6,
         "id":  "easels-and-furniture-12",
         "price":  26.99,
@@ -1182,7 +1182,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5BLY0Ik139aISeYwNDBfr8/a77edea56a22c063af27b0595fe46824/50387-1002-3ww-l.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/50387-1002-3ww-l.jpg",
         "rating":  4.6,
         "id":  "easels-and-furniture-13",
         "price":  19.99,
@@ -1198,7 +1198,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3o69LI50stHkGMAj9cm5yO/06311253aa64d71454845643df662766/83540-2100-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/83540-2100-M-4ww.jpg",
         "rating":  5,
         "id":  "easels-and-furniture-14",
         "price":  248.36,
@@ -1214,7 +1214,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2J7VCz0pdKMfWZ6Gq0eW3V/fdcd9ecdcebd2f3eb64fa1be4a350164/17707-2029-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/17707-2029-M-4ww.jpg",
         "rating":  4.4,
         "id":  "farming-and-matboard",
         "price":  20.99,
@@ -1230,7 +1230,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5Sz05ho8mcl7ZWd3RRIuis/c6816ce6affb238314f856e6a76f2588/18862-2008-1.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/18862-2008-1.jpg",
         "rating":  4.3,
         "id":  "farming-and-matboard-1",
         "price":  57.57,
@@ -1246,7 +1246,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/7FkidQB7bZKqvKcqDyDgw3/6f77af7b2897749ded20459f01c9576c/17707-2025-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/17707-2025-M-4ww.jpg",
         "rating":  4.4,
         "id":  "farming-and-matboard-2",
         "price":  10.49,
@@ -1262,7 +1262,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1vL3dYCZynK80XxkLfOdMS/788855edba2cf04b8b3a175dbdaffd1a/17707-2027-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/17707-2027-M-4ww.jpg",
         "rating":  4.4,
         "id":  "farming-and-matboard-3",
         "price":  24.99,
@@ -1278,7 +1278,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/ZkSNUoHVF8iOgyvirPeOE/a63cf6e03b0bf7ff8b3290fe01dca77b/17563-8904-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/17563-8904-M-4ww.jpg",
         "rating":  4.7,
         "id":  "farming-and-matboard-4",
         "price":  37.1,
@@ -1294,7 +1294,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/7nIu1ykkGYh3pshnIxR8d1/805c9eef662a0e3286e8be9c88d063eb/17707-2028-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/17707-2028-M-4ww.jpg",
         "rating":  4.4,
         "id":  "farming-and-matboard-5",
         "price":  15.44,
@@ -1310,7 +1310,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/7jFps3eymiVmdMyq9I8AdK/4a8b0d93ab77d02f8e66eae00cb6a7a0/18862-1908-2-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/18862-1908-2-4ww.jpg",
         "rating":  4.3,
         "id":  "farming-and-matboard-6",
         "price":  57.57,
@@ -1326,7 +1326,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2SrDj0N1JOnGIKTkg5jMTw/d6040b29a2c3d507f5231db018cfc2a9/18862-2009-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/18862-2009-1-4ww.jpg",
         "rating":  4.3,
         "id":  "farming-and-matboard-7",
         "price":  67.58,
@@ -1342,7 +1342,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5gMRYQGzQYdC9frs7QR5jJ/f080f0ee0070d85bb6f96dc6a087e0ad/18846-5012-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/18846-5012-M-4ww.jpg",
         "rating":  4.4,
         "id":  "farming-and-matboard-8",
         "price":  43.15,
@@ -1358,7 +1358,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1S97Ypha6aOxggGl1is7CJ/f9837b2b6159eefe4650c9f6d8b5b041/18862-1909-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/18862-1909-1-4ww.jpg",
         "rating":  4.3,
         "id":  "farming-and-matboard-9",
         "price":  67.58,
@@ -1374,7 +1374,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1VpJUaoaotNQYBWtwbaefv/3c9d28e130ed7ef62acacab3127943c7/18862-1905-2-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/18862-1905-2-4ww.jpg",
         "rating":  4.3,
         "id":  "farming-and-matboard-10",
         "price":  45.57,
@@ -1389,7 +1389,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1s9HUmAOmxEFdWNRK5P2Tb/9e5551448cb030da40dcf78e6166e0eb/18862-2005-2-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/18862-2005-2-4ww.jpg",
         "rating":  4.3,
         "id":  "farming-and-matboard-11",
         "price":  45.57,
@@ -1404,7 +1404,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5N8woEzIuSbusAmS36ONxl/b2cf78aa83dc26b84c91a751c18334d3/18846-5005-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/18846-5005-M-4ww.jpg",
         "rating":  4.4,
         "id":  "farming-and-matboard-12",
         "price":  48.37,
@@ -1420,7 +1420,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3ciTMJm0oFLakdwnJ1j1uC/21247699d0874e30e2ca5c5928ad0661/18862-1904-2-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/18862-1904-2-4ww.jpg",
         "rating":  4.3,
         "id":  "farming-and-matboard-13",
         "price":  45.57,
@@ -1435,7 +1435,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2J7VCz0pdKMfWZ6Gq0eW3V/fdcd9ecdcebd2f3eb64fa1be4a350164/17707-2029-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/17707-2029-M-4ww.jpg",
         "rating":  4.4,
         "id":  "farming-and-matboard-14",
         "price":  20.99,
@@ -1451,7 +1451,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1MlnxISi03k3jTuH7LEXZ7/126a1107a6aba381af8dddacd4698aa3/00711-Group-9-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/00711-Group-9-4ww.jpg",
         "rating":  4.6,
         "id":  "paints",
         "price":  7.37,
@@ -1467,7 +1467,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/7tD9Xhvp3qYVmexpsOIECX/3fdd314d70bbc4ee31de58dc57f36cab/00620-acrylics3ww-l.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/00620-acrylics3ww-l.jpg",
         "rating":  4.9,
         "id":  "paints-1",
         "price":  9.09,
@@ -1483,7 +1483,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/7hHelOKYq0ROST0ELlXAXo/559f36ab3c8c89803ef0608cc9c79e32/00638-group-P-3ww-l.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/00638-group-P-3ww-l.jpg",
         "rating":  4.9,
         "id":  "paints-2",
         "price":  5.94,
@@ -1499,7 +1499,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3WAvqgXKv0vBl4tsMLmRpm/4a40e356bdd64294e261fe1756528b1a/00617-group-3-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/00617-group-3-4ww.jpg",
         "rating":  4.8,
         "id":  "paints-3",
         "price":  8.99,
@@ -1515,7 +1515,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1KXzzQwd1tURjPgWdimkJZ/d097a736835f450c9d2c953719c13247/00717-0129-4-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/00717-0129-4-4ww.jpg",
         "rating":  4.8,
         "id":  "paints-4",
         "price":  4.19,
@@ -1531,7 +1531,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3F6JSBsmX8RYTtXcWzSYq5/db66575b9daf66bb35778342f6ecc8a5/01637-group-14-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/01637-group-14-4ww.jpg",
         "rating":  4.7,
         "id":  "paints-5",
         "price":  4.24,
@@ -1547,7 +1547,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6Xb5BP6LBTE44YyUK4t1Qj/d230cea8374baec9577701104c014568/00643-4553-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/00643-4553-M-4ww.jpg",
         "rating":  4.8,
         "id":  "paints-6",
         "price":  3.42,
@@ -1563,7 +1563,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/goMBVRCCdt2vhHkAc8lPI/016ec0b77104f529568bb410002bae61/01618-group-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/01618-group-M-4ww.jpg",
         "rating":  4.7,
         "id":  "paints-7",
         "price":  9.09,
@@ -1579,7 +1579,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6eZsySH7UX8Xf2u9rHl5JL/fb944e76729fda27b99aac5d50c99def/01654-Group-main-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/01654-Group-main-1-4ww.jpg",
         "rating":  4.7,
         "id":  "paints-8",
         "price":  8.09,
@@ -1595,7 +1595,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6fNYWGNTJxbsxYa7LmD59W/1f452b6b2c1bfd2ad9ddb4c0ea3b2846/00811-1029-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/00811-1029-1-4ww.jpg",
         "rating":  4.8,
         "id":  "paints-9",
         "price":  6.76,
@@ -1611,7 +1611,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_3840/f_auto/q_auto/v1/01650-1049-M-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/01650-1049-M-4ww.jpg",
         "rating":  4.9,
         "id":  "paints-10",
         "price":  5.94,
@@ -1627,7 +1627,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_1920/f_auto/q_auto/v1/00604-1029-3-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/00604-1029-3-4ww.jpg",
         "rating":  4.7,
         "id":  "paints-11",
         "price":  4.4,
@@ -1643,7 +1643,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_3840/f_auto/q_auto/v1/00624-Group-1-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/00624-Group-1-4ww.jpg",
         "rating":  4.6,
         "id":  "paints-12",
         "price":  7.36,
@@ -1659,7 +1659,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_3840/f_auto/q_auto/v1/01655-group-5-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/01655-group-5-4ww.jpg",
         "rating":  4.8,
         "id":  "paints-13",
         "price":  8.49,
@@ -1675,7 +1675,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://cld-assets.dick-blick.com/image/upload/c_scale,w_1920/f_auto/q_auto/v1/09404-1009-1-4ww?_a=BAVAZGDY0",
+        "image":  "/images/products/09404-1009-1-4ww.jpg",
         "rating":  4.8,
         "id":  "paints-14",
         "price":  9.09,
@@ -1691,7 +1691,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1wXEKuW2TCn3OD2w9hYfx5/e9e8e08799b0bb5783e6b7fcec0c356f/10209-group-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/10209-group-4ww.jpg",
         "rating":  4.7,
         "id":  "papers-and-boards",
         "price":  3.97,
@@ -1707,7 +1707,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1o6heC1HJk6oNejWY8UI6o/da12590e33e9ef8b67b9fc88e5061f8b/12468-1009-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/12468-1009-M-4ww.jpg",
         "rating":  4.8,
         "id":  "papers-and-boards-1",
         "price":  9.94,
@@ -1723,7 +1723,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6RcZSUtTkit0RcIPInXc4T/e2167e40d62f0b4464a0ba0978e5df78/13307-1005-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/13307-1005-4ww.jpg",
         "rating":  4.8,
         "id":  "papers-and-boards-2",
         "price":  3.42,
@@ -1739,7 +1739,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/1TqeMUNPvaZ47pW3kXOSP/76749a57586a91035069b8466af08c20/10710-group-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/10710-group-1-4ww.jpg",
         "rating":  4.7,
         "id":  "papers-and-boards-3",
         "price":  0.8,
@@ -1755,7 +1755,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2C9hOZxOP0QkTAor5PBCDo/3cd6f3ba1b0e02f2a082b742e34dad05/10423-group-4-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/10423-group-4-4ww.jpg",
         "rating":  4.8,
         "id":  "papers-and-boards-4",
         "price":  4.68,
@@ -1771,7 +1771,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2P7BWKss5DWHSGT9fBfcxX/6530fdc5c06e21d378d27193fefcb927/10316-group-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/10316-group-4ww.jpg",
         "rating":  4.8,
         "id":  "papers-and-boards-5",
         "price":  3.08,
@@ -1787,7 +1787,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6ilLkRy7EHA4SPjQtrWE4D/5f2dcd206567f2950a14eb83d269a221/10419-group-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/10419-group-1-4ww.jpg",
         "rating":  4.9,
         "id":  "papers-and-boards-6",
         "price":  6.05,
@@ -1803,7 +1803,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3BSBEaY0XEycjhy8QxMMUb/e30b864ff47131b3b3a82450f67c4191/13880-Group-2-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/13880-Group-2-4ww.jpg",
         "rating":  4.7,
         "id":  "papers-and-boards-7",
         "price":  8.25,
@@ -1819,7 +1819,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5iO5RyuK16BFIyLFwEQUQG/627616283130ffca3ada8ce3cdc37787/10314-1052-2-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/10314-1052-2-4ww.jpg",
         "rating":  4.7,
         "id":  "papers-and-boards-8",
         "price":  8.46,
@@ -1835,7 +1835,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6FxFgw154UvQpbBizMii3P/5517105750b66f639d747d4901f30535/12917-2612-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/12917-2612-M-4ww.jpg",
         "rating":  4.5,
         "id":  "papers-and-boards-9",
         "price":  13.45,
@@ -1851,7 +1851,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/65Os8w2OQuOsHY367SXhuF/dbe77b619c80ce039a2ce1081b9ae938/10311-1043-3-3ww-l.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/10311-1043-3-3ww-l.jpg",
         "rating":  4.7,
         "id":  "papers-and-boards-10",
         "price":  4.48,
@@ -1867,7 +1867,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/6XslbaGcnkVUqnB7qqymOP/cc2f2259d458aa0ce73e95796a019e9d/14915-group-1-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/14915-group-1-4ww.jpg",
         "rating":  4.8,
         "id":  "papers-and-boards-11",
         "price":  5.5,
@@ -1883,7 +1883,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/14cD9AabjNQtAg1DkHenB9/5ab7a1af27ff631ed5e30ac6d67b41ae/10800-1023-3ww-l.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/10800-1023-3ww-l.jpg",
         "rating":  4.5,
         "id":  "papers-and-boards-12",
         "price":  7.5,
@@ -1899,7 +1899,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/4hk3haFWu0n7M5dgGo9jUu/ffe03e4571b9bdec59ed76bf066e7426/10820-group3ww-l.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/10820-group3ww-l.jpg",
         "rating":  4.8,
         "id":  "papers-and-boards-13",
         "price":  5.72,
@@ -1915,7 +1915,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/4Q3VcJVPv0Ha1oMPxdV4NZ/31cf2b0941e99334fddfca3f2913bdd4/10322-1003-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/10322-1003-M-4ww.jpg",
         "rating":  4.8,
         "id":  "papers-and-boards-14",
         "price":  7.57,
@@ -1931,7 +1931,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/12CdYFueOlOYVfCDohXNJT/d3f56ce3b4d12152208529b939f4ebd1/16974-Group-3-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/16974-Group-3-4ww.jpg",
         "rating":  4.6,
         "id":  "studio-and-office-supplies",
         "price":  3.15,
@@ -1947,7 +1947,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3J5MIYb6mdUtpHqazF8kSe/2f385427eb4307400797504c7ba2b15d/15105-Group-2-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/15105-Group-2-4ww.jpg",
         "rating":  4.2,
         "id":  "studio-and-office-supplies-1",
         "price":  8.72,
@@ -1963,7 +1963,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/4YuuoYglAtliJUlFSOR0UB/9f017b32218b5a6343c372f6a8e8db59/15019-1046-M-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/15019-1046-M-4ww.jpg",
         "rating":  4.8,
         "id":  "studio-and-office-supplies-2",
         "price":  8.05,
@@ -1979,7 +1979,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2N4RDYQo73IxQJFaa0fYjp/70475cfbe623abe8ed251ce7abeabac5/15315-group-4-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/15315-group-4-4ww.jpg",
         "rating":  4.7,
         "id":  "studio-and-office-supplies-3",
         "price":  19.66,
@@ -1995,7 +1995,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5vqRfz593igJrPVn9CwqPb/0cee5c80a01f7098d4e692841da26ea2/16992-Group-2-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/16992-Group-2-4ww.jpg",
         "rating":  4.6,
         "id":  "studio-and-office-supplies-4",
         "price":  17.72,
@@ -2011,7 +2011,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5d5yghlY5SQdg2bqLnSnCs/c23bfbe635019d9fa34fee9084112086/03274-group3ww-l.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/03274-group3ww-l.jpg",
         "rating":  4.7,
         "id":  "studio-and-office-supplies-5",
         "price":  6.53,
@@ -2027,7 +2027,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/3sTGzZ3M0uS6prlOxiT6k4/04d17eebdaaf90df000307fbee459496/03395-1023-3-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/03395-1023-3-4ww.jpg",
         "rating":  4.9,
         "id":  "studio-and-office-supplies-6",
         "price":  3.5,
@@ -2043,7 +2043,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2boPb0X4izdk5039ZeDxHJ/b698fb40a73ef7b9d4b9869d1e5e5dbe/MacPherson_banners-34.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/MacPherson_banners-34.jpg",
         "rating":  0,
         "id":  "studio-and-office-supplies-7",
         "price":  2.01,
@@ -2059,7 +2059,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2lygMz0420nifCMIFzjIQh/84ef9156874b08b1f5f89f6116788614/21952-group3ww-l.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/21952-group3ww-l.jpg",
         "rating":  4.9,
         "id":  "studio-and-office-supplies-8",
         "price":  8.12,
@@ -2075,7 +2075,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5nofkcOlVDseRcsF7nc450/1d93c3f4c32925f9c1804a6930ffd63a/15274-1005-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/15274-1005-4ww.jpg",
         "rating":  4.8,
         "id":  "studio-and-office-supplies-9",
         "price":  8.09,
@@ -2090,7 +2090,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/7GvkZcX5gKIN8iyidqglof/3589932d902c76e3caf337be97576231/04815-1002-3ww-l.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/04815-1002-3ww-l.jpg",
         "rating":  5,
         "id":  "studio-and-office-supplies-10",
         "price":  0.65,
@@ -2106,7 +2106,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/2xTNUPxScf35thtP2Irh20/1e90c61aa50b8164a2a69d59a663898b/22744-group-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/22744-group-4ww.jpg",
         "rating":  4.6,
         "id":  "studio-and-office-supplies-11",
         "price":  15.16,
@@ -2122,7 +2122,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/22iOqwa9hkiSiEHmTTgCLo/e3857a336e34247c14d6ca1692dc6b69/02909-group-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/02909-group-4ww.jpg",
         "rating":  3.4,
         "id":  "studio-and-office-supplies-12",
         "price":  1.32,
@@ -2138,7 +2138,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5lCYLZrWP9jrq2j95GAP04/187cc0f947f272fd26ae3d0d5827e729/15139-group-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/15139-group-4ww.jpg",
         "rating":  4.5,
         "id":  "studio-and-office-supplies-13",
         "price":  16.1,
@@ -2154,7 +2154,7 @@ export const ALL_PRODUCTS: Product[] = [
                     ]
     },
     {
-        "image":  "https://images.ctfassets.net/f1fikihmjtrp/5DapnjkBqjdhORzUiV3NTQ/9ad649a70c0680d25ffb48787b2ed7c4/15153-1021-8-4ww.jpg?q=80\u0026w=190\u0026h=190",
+        "image":  "/images/products/15153-1021-8-4ww.jpg",
         "rating":  4.8,
         "id":  "studio-and-office-supplies-14",
         "price":  15.98,
